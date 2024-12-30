@@ -136,7 +136,7 @@ elif page == "Prediction Models":
         st.image('log_con.png')
         st.write("This Model did worse overall with every score being lower than the previous. It is not a bad model by any means, beating the baseline accuracy by a large margin, it is just not the right model for this data.")
 
-if 'Random Forest' in model_type:
+    if 'Random Forest' in model_type:
         st.subheader("Random Forest")
         st.write("A Random Forest is a machine learning algorithm that combines multiple decision trees to make predictions, essentially creating a 'forest' of trees where each tree is built on a slightly different subset of data, resulting in a more robust and accurate prediction than using a single decision tree alone")
         st.write("Accuracy: 96.25%")
